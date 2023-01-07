@@ -16,7 +16,6 @@ def state_f(arr):
 for _ in range(int(input())):
     n = int(input())
     arr = list(map(int, input().split()))
-    yn = 'YES'
     print(state_f(arr=arr))   
        
 
